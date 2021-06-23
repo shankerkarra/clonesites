@@ -13,19 +13,47 @@
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 
-<body>
+<style>
+  body.debug .container,
+  body.debug .container-fluid {
+    outline: 2px double blue;
+    outline-offset: -2px;
+  }
+
+  body.debug .row {
+    outline: 2px dashed red;
+    outline-offset: -2px;
+  }
+
+  body.debug [class*="col-"] {
+    outline: 2px dotted forestgreen;
+    outline-offset: -3px;
+  }
+</style>
+
+
+<body class="debug">
   <!-- Header -->
   <header class="container-fluid sticky-top">
     <div class="row">
       <div class="col p-0">
         <nav class="navbar b4-navbar">
-          <a class="navbar-brand" href="#">
-            <img src=".//Images/breweries.jpg" class="d-inline-block align-top " alt="Karra Breweries"> Karra
-            Breweries </a>
-        </nav>
       </div>
     </div>
   </header>
+
+  <div class="container-fluid">
+    <div class="row bg-main-img align-items-center text-light">
+      <div class="col">
+        <h3>Lorem ipsum dolor sit amet.</h3>
+        <p>Lorem ipsum dolor sit.</p>
+        <a class="navbar-brand" href="#">
+          <img src=".//Images/breweries.jpg" class="d-inline-block align-top " alt="Karra Breweries"> Karra
+          Breweries </a>
+        </nav>
+      </div>
+    </div>
+  </div>
   <div class=" container">
     <div class="row">
       <div class="col-12 col-sm-6"></div>
