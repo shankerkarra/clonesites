@@ -3,12 +3,12 @@ text-align: center;
 margin: 100%
 }
 
-body {
+/* body {
   min-height: 100vh;
   display: flex;
   flex-direction: column;
-}
+} */
 
-main {
+/* main {
   flex-grow: 1;
-}
+} */
