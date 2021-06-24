@@ -33,15 +33,15 @@
 
 <body class="debug">
   <!-- Header -->
-  <header class="container-fluid sticky-top p-0">
-    <div class="row bg-primary p-1">
+  <header class="container-fluid sticky-top">
+    <div class="row bg-primary p-0">
       <div class="col">
         <h1 class="text-center">Karra Breweries</h1>
       </div>
     </div>
-    <div class="row bg-secondary p-2">
+    <!--Add Navigation Bar -->
+    <div class="row bg-secondary">
       <div class="col">
-        <!--Add Navigation Bar -->
         <div class="navbar navbar-expand-md navbar-light bg-grey">
           <a href="#" class="navbar-brand"></a>
           <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarCollapse">
@@ -52,7 +52,7 @@
               <a href="#" class="nav-item nav-link active">Home</a>
               <a href="#" class="nav-item nav-link">Order</a>
               <a href="#" class="nav-item nav-link">Contact</a>
-              <a href="#" class="nav-item nav-link disabled" tabindex="-1">About-us</a>
+              <a href="#" class="nav-item nav-link " tabindex="-1">About-us</a>
             </div>
           </div>
         </div>
@@ -64,14 +64,14 @@
   </header>
   <div class="container-fluid ">
     <div class="row P-3">
-      <div class="col-md-6 col-lg-12 text-center">
-        <img src=".//Images/breweries.jpg" class="d-inline-block img-fluid align-top" alt="Karra Breweries">
+      <div class="col text-center">
+        <img src=".//Images/breweries.jpg" alt="Karra Breweries" class="img-fluid">
       </div>
     </div>
   </div>
-  <main class="container-fluid p-0 ">
+  <main class="container-fluid">
     <!--   -->
-    <div class="row">
+    <div class="row p-3">
       <div class="col-lg-4">
         <div class="row justify-content-center">
           <img src=".//Images/breweries.jpg" height="80">
@@ -92,7 +92,7 @@
         </div>
       </div>
       <!--  -->
-      <div class="col-lg-4">
+      <div class="col">
         <div class="row justify-content-center">
           <img src=".//Images/breweries.jpg" height="80">
         </div>
@@ -120,13 +120,13 @@
     </div>
     <!-- end of latest events -->
     <!-- Start of Event Images -->
-    <div class="row justify-content-center">
-      <div class="col-md-4 p-0"><img src=".//Images/breweries.jpg" height="100"></div>
-      <div class="col-md-4 p-0"><img src=".//Images/breweries.jpg" height="100"></div>
-      <div class="col-md-4 p-0"><img src=".//Images/breweries.jpg" height="100"></div>
-      <div class="col-md-4 p-0"><img src=".//Images/breweries.jpg" height="100"></div>
-      <div class="col-md-4 p-0"><img src=".//Images/breweries.jpg" height="100"></div>
-      <div class="col-md-4 p-0"><img src=".//Images/breweries.jpg" height="100"></div>
+    <div class="row justify-content-center p-3">
+      <div class="col-md-4 p-2"><img src=".//Images/breweries.jpg" height="100"></div>
+      <div class="col-md-4  p-2"><img src=".//Images/breweries.jpg" height="100"></div>
+      <div class="col-md-4  p-2"><img src=".//Images/breweries.jpg" height="100"></div>
+      <div class="col-md-4 p-1"><img src=".//Images/breweries.jpg" height="100"></div>
+      <div class="col-md-4  p-1"><img src=".//Images/breweries.jpg" height="100"></div>
+      <div class="col-md-4  p-1"><img src=".//Images/breweries.jpg" height="100"></div>
 
     </div>
 
@@ -134,8 +134,10 @@
     <!-- End of Event Images -->
   </main>
   <footer class="container-fluid">
-    <div class="row">
-      <p>Footer <i class="fa fa-align-justify" aria-hidden="true"></i></p>
+    <div class="row p-5 bg-primary text-center">
+      <div class="col-3">Address</div>
+      <div class="col-3">Contacts us</div>
+      <div class="col-3">Social Media</div>
     </div>
   </footer>
 </body>
